@@ -1,5 +1,31 @@
 # Getting Started with Create React App
 
+## LightMode
+![Web capture_27-6-2023_141558_localhost](https://github.com/emanojbisht/devfinder/assets/46516136/94e6f881-90a5-4a6d-9f60-5920efc54332)
+
+## DarkMode
+![Web capture_27-6-2023_141647_localhost](https://github.com/emanojbisht/devfinder/assets/46516136/8869dd32-6c41-4023-854c-f26c74d09427)
+
+## 404 Not Found
+### In case the entered username does not exist
+![Web capture_27-6-2023_141749_localhost](https://github.com/emanojbisht/devfinder/assets/46516136/3bab92a1-d8ce-48ea-a2de-a947aa7e950d)
+
+## Mobile layout
+![Web capture_27-6-2023_141859_localhost](https://github.com/emanojbisht/devfinder/assets/46516136/6c9fe497-291e-449b-b677-26bb9675d107)
+
+#### devfinder
+DevFinder is a dynamic and user-friendly web application built using React that harnesses the power of the GitHub RESTful API to provide comprehensive information about developers on GitHub. The primary objective of DevFinder is to facilitate the discovery and exploration of developers and their projects within the GitHub community.
+
+The application offers a seamless and intuitive interface that adapts to various screen sizes, ensuring a fully responsive experience across devices. With DevFinder, users can effortlessly access valuable information about developers, including their contact details, repository count, followers, and the number of people they are following. This comprehensive overview allows users to gain insights into a developer's expertise and popularity within the GitHub ecosystem.
+
+DevFinder leverages the GitHub RESTful API to retrieve accurate and up-to-date data on developers. By integrating with this powerful API, the application provides a reliable and efficient means of gathering information, ensuring that users can rely on the accuracy and timeliness of the data displayed.
+
+A key feature of DevFinder is its ability to seamlessly connect users with a developer's GitHub account. Each developer profile displayed in the application includes a direct link to their GitHub page, allowing users to explore their repositories, contributions, and other relevant information. This integration enhances the user experience by enabling seamless navigation between the DevFinder application and the respective developer's GitHub account.
+
+To ensure a smooth and engaging user experience, DevFinder implements modern UI design principles and best practices. The user interface is visually appealing, intuitive, and optimized for ease of navigation. The application leverages React's component-based architecture, providing modularity, reusability, and maintainability of code.
+
+DevFinder empowers users to make informed decisions when searching for developers to collaborate with or follow on GitHub. By providing detailed information about developers' profiles, contact details, and project statistics, the application equips users with the necessary insights to connect with the right individuals and explore potential collaborations within the GitHub community.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
