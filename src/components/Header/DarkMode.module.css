@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.containerLightMode {
+  color: #666;
+}
+
+.container:hover {
+  color: #999;
+}
+.mode {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+}

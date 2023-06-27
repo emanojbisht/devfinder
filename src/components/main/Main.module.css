@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap");
+
+.container {
+  min-height: 473px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  padding: 50px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  font-family: "Agdasima", "Rubik", sans-serif;
+  transition: all 1s;
+}
+.containerLoadErr {
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 50px 50px;
+  margin-top: 30px;
+  border-radius: 20px;
+  transition: all 1s;
+}
+.containerError {
+  font-size: 20px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.containerDarkMode {
+  background-color: #1e2a47;
+  color: #fff;
+}
+.imgDiv {
+  padding-right: 30px;
+}
+.img {
+  width: 100%;
+  border-radius: 50%;
+}
+.nameDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  font-weight: 600;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.userName:link,
+.userName:active {
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #228be6;
+}
+.userName:hover,
+.userName:visited {
+  text-decoration: underline;
+  color: #228be6;
+}
+.joiningDate {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.darkMode {
+  color: #999;
+}
+.userDetailsDiv {
+  grid-column: 2/3;
+  margin-top: -27px;
+}
+.bio {
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  word-spacing: 5px;
+}
+
+.countDiv {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 20px;
+  /* transition: all 1s; */
+}
+.countLightMode {
+  background-color: #eee;
+}
+.countDarkModeDivBG {
+  background-color: #141d2f;
+}
+.countHeading {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.countNumber {
+  font-size: 26px;
+  display: inline-block;
+  padding-top: 5px;
+  font-weight: 600;
+}
+.contactInfoDiv {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 10%;
+  margin-top: 40px;
+}
+.contact {
+  font-size: 20px;
+  display: flex;
+  row-gap: 30px;
+  gap: 20px;
+}
+.contactLink:link,
+.contactLink:active {
+  font-size: 20px;
+  text-decoration: none;
+  color: #228be6;
+}
+.contactLink:hover,
+.contactLink:visited {
+  text-decoration: underline;
+  color: #228be6;
+}
+.contactIcon {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 836px) {
+  .userDetailsDiv {
+    grid-column: 1/3;
+    margin-top: 15px;
+  }
+  .nameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    padding: 50px 20px 100px 20px;
+  }
+  .contactInfoDiv {
+    grid-template-columns: 1fr;
+    gap: 15%;
+  }
+  .imgDiv {
+    padding-right: 10px;
+  }
+  .countDiv {
+    padding: 20px 20px;
+  }
+}
